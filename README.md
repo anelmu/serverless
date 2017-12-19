@@ -131,7 +131,7 @@ The following are services you can instantly install and use by running `serverl
 
 ## <a name="features"></a>Features
 
-* Supports Node.js, Python, Java & Scala.
+* Supports Node.js, Python, Java, Scala, C#, F#, Groovy, Kotlin, PHP & Swift.
 * Manages the lifecycle of your serverless architecture (build, deploy, update, delete).
 * Safely deploy functions, events and their required resources together via provider resource managers (e.g., AWS CloudFormation).
 * Functions can be grouped ("serverless services") for easy management of code, resources & processes, across large projects & teams.
@@ -355,7 +355,7 @@ These consultants use the Serverless Framework and can help you build your serve
 * [Red Badger](https://red-badger.com)
 * [Langa](http://langa.io/?utm_source=gh-serverless&utm_medium=github) - They built [Trails.js](http://github.com/trailsjs/trails)
 * [Emerging Technology Advisors](https://www.emergingtechnologyadvisors.com)
-
+* [OneSpeed](https://onespeed.io/)
 ----
 
 # <a name="v.5"></a>Previous Serverless Version 0.5.x
