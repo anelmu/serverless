@@ -1,11 +1,10 @@
 #!/bin/bash
 
-#install zip on debian OS, since microsoft/dotnet container doesn't have zip by default
-if [ -f /etc/debian_version ]
-then
-  apt -qq update
-  apt -qq -y install zip
-fi
+#install zip
+apt-get -qq update
+apt-get -qq -y install zip
 
 dotnet restore
-dotnet lambda package --configuration release --framework netcoreapp2.0 --output-package bin/release/netcoreapp2.0/deploy-package.zip
+
+#create deployment package
+dotnet lambda package --configuration release --framework netcoreapp1.0 --output-package bin/release/netcoreapp1.0/deploy-package.zip
