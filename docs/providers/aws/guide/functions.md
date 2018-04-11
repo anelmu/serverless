@@ -37,7 +37,6 @@ functions:
     runtime: python2.7 # optional overwrite, default is provider runtime
     memorySize: 512 # optional, in MB, default is 1024
     timeout: 10 # optional, in seconds, default is 6
-    reservedConcurrency: 5 # optional, reserved concurrency limit for this function. By default, AWS uses account concurrency limit
 ```
 
 The `handler` property points to the file and module containing the code you want to run in your function.
@@ -99,26 +98,6 @@ functions:
     handler: handler.functionOne
     memorySize: 512 # function specific
 ```
-
-You can specify an array of functions, which is useful if you separate your functions in to different files:
-
-```yml
-# serverless.yml
-...
-
-functions:
-  - ${file(./foo-functions.yml)}
-  - ${file(./bar-functions.yml)}
-```
-
-```yml
-# foo-functions.yml
-getFoo:
-  handler: handler.foo
-deleteFoo:
-  handler: handler.foo
-```
-
 
 ## Permissions
 

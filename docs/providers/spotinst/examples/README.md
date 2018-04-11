@@ -17,4 +17,3 @@ Pick your language of choice:
 * [JavaScript](./node)
 * [Python](./python)
 * [Ruby](./ruby)
-* [Java8](./java8)

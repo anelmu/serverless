@@ -1,7 +1,7 @@
 <!--
 title: Serverless Framework Commands - Spotinst Functions - Plugin Uninstall
 menuText: Plugin Uninstall
-menuOrder: 13
+menuOrder: 12
 description: Uninstall a Serverless plugin
 layout: Doc
 -->

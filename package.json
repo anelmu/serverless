@@ -1,6 +1,6 @@
 {
   "name": "serverless",
-  "version": "1.26.0",
+  "version": "1.24.1",
   "engines": {
     "node": ">=4.0"
   },
@@ -79,7 +79,7 @@
     "jest-cli": "^18.0.0",
     "jszip": "^3.1.2",
     "markdown-link": "^0.1.1",
-    "markdown-magic": "^0.1.19",
+    "markdown-magic": "^0.1.15",
     "markdown-table": "^1.1.1",
     "mocha": "^3.0.2",
     "mocha-lcov-reporter": "^1.2.0",
@@ -100,7 +100,6 @@
     "chalk": "^2.0.0",
     "ci-info": "^1.1.1",
     "download": "^5.0.2",
-    "fast-levenshtein": "^2.0.6",
     "filesize": "^3.3.0",
     "fs-extra": "^0.26.7",
     "get-stdin": "^5.0.1",

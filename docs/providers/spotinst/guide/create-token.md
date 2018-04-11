@@ -7,7 +7,7 @@ layout: Doc
 -->
 
 <!-- DOCS-SITE-LINK:START automatically generated -->
-### [Read this on the main serverless docs site](https://www.serverless.com/framework/docs/providers/spotinst/guide/create-token)
+### [Read this on the main serverless docs site](https://www.serverless.com/framework/docs/providers/spotinst/guide/credentials)
 <!-- DOCS-SITE-LINK:END -->
 
 # Spotinst Functions - Create Token

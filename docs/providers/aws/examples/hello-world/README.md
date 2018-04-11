@@ -17,8 +17,6 @@ Pick your language of choice:
 
 * [JavaScript](./node)
 * [Python](./python)
-* [C#](./csharp)
-* [F#](./fsharp)
-* [Go](./go)
+* [csharp](./csharp)
 
 [View all examples](https://www.serverless.com/framework/docs/providers/aws/examples/)
