@@ -12,7 +12,7 @@
 
 **The Serverless Framework** – Build applications comprised of microservices that run in response to events, auto-scale for you, and only charge you when they run.  This lowers the total cost of maintaining your apps, enabling you to build more logic, faster.
 
-The Framework uses new event-driven compute services, like AWS Lambda, Google CloudFunctions, and more.  It's a command-line tool, providing scaffolding, workflow automation and best practices for developing and deploying your serverless architecture. It's also completely extensible via plugins.
+The Framework uses new event-driven compute services, like AWS Lambda, Google Cloud Functions, and more.  It's a command-line tool, providing scaffolding, workflow automation and best practices for developing and deploying your serverless architecture. It's also completely extensible via plugins.
 
 Serverless is an MIT open-source project, actively maintained by a full-time, venture-backed team.
 
@@ -126,12 +126,13 @@ The following are services you can instantly install and use by running `serverl
 * [Ruby](https://github.com/stewartlord/serverless-ruby) - Call a Ruby function from your lambda
 * [Slack App](https://github.com/johnagan/serverless-slack-app) - Slack App Boilerplate with OAuth and Bot actions
 * [Swift](https://github.com/choefele/swift-lambda-app) - Full-featured project template to develop Lambda functions in Swift
+* [Cloudwatch Alerts on Slack](https://github.com/dav009/serverless-aws-alarms-notifier) - Get AWS Cloudwatch alerts notifications on Slack
 
 **Note**: the `serverless install` command will only work on V1.0 or later.
 
 ## <a name="features"></a>Features
 
-* Supports Node.js, Python, Java, Scala, C#, F#, Groovy, Kotlin, PHP & Swift.
+* Supports Node.js, Python, Java, Scala, C#, F#, Go, Groovy, Kotlin, PHP & Swift.
 * Manages the lifecycle of your serverless architecture (build, deploy, update, delete).
 * Safely deploy functions, events and their required resources together via provider resource managers (e.g., AWS CloudFormation).
 * Functions can be grouped ("serverless services") for easy management of code, resources & processes, across large projects & teams.
@@ -157,7 +158,7 @@ This table is generated from https://github.com/serverless/plugins/blob/master/p
 | **[Raml Serverless](https://github.com/andrewcurioso/raml-serverless)** <br/> Serverless plugin to work with RAML API spec documents | [andrewcurioso](http://github.com/andrewcurioso) |
 | **[Serverless Alexa Plugin](https://github.com/rajington/serverless-alexa-plugin)** <br/> Serverless plugin to support Alexa Lambda events | [rajington](http://github.com/rajington) |
 | **[Serverless Api Stage](https://github.com/leftclickben/serverless-api-stage)** <br/> Serverless API Stage plugin, enables stage variables and logging for AWS API Gateway. | [leftclickben](http://github.com/leftclickben) |
-| **[Serverless Apig S3](https://github.com/sdd/serverless-apig-s3)** <br/> Serve static front-end content from S3 via the API Gatewy and deploy client bundle to S3. | [sdd](http://github.com/sdd) |
+| **[Serverless Apig S3](https://github.com/sdd/serverless-apig-s3)** <br/> Serve static front-end content from S3 via the API Gateway and deploy client bundle to S3. | [sdd](http://github.com/sdd) |
 | **[Serverless Apigateway Plugin](https://github.com/GFG/serverless-apigateway-plugin)** <br/> Configure the AWS api gateway: Binary support, Headers and Body template mappings | [GFG](http://github.com/GFG) |
 | **[Serverless Apigw Binary](https://github.com/maciejtreder/serverless-apigw-binary)** <br/> Plugin to enable binary support in AWS API Gateway. | [maciejtreder](http://github.com/maciejtreder) |
 | **[Serverless Apigwy Binary](https://github.com/ryanmurakami/serverless-apigwy-binary)** <br/> Serverless plugin for configuring API Gateway to return binary responses | [ryanmurakami](http://github.com/ryanmurakami) |
@@ -262,6 +263,7 @@ This table is generated from https://github.com/serverless/examples/blob/master/
 -->
 | Project Name | Author |
 |:-------------|:------:|
+| **[Serverless Architecture Boilerplate](https://github.com/msfidelis/serverless-architecture-boilerplate)** <br/> Boilerplate to organize and deploy big projects using Serverless and CloudFormation on AWS | [msfidelis](http://github.com/msfidelis) |
 | **[Jwtauthorizr](https://github.com/serverlessbuch/jwtAuthorizr)** <br/> Custom JWT Authorizer Lambda function for Amazon API Gateway with Bearer JWT | [serverlessbuch](http://github.com/serverlessbuch) |
 | **[Serverless Graphql Api](https://github.com/boazdejong/serverless-graphql-api)** <br/> Serverless GraphQL API using Lambda and DynamoDB | [boazdejong](http://github.com/boazdejong) |
 | **[Serverless Screenshot](https://github.com/svdgraaf/serverless-screenshot)** <br/> Serverless Screenshot Service using PhantomJS | [svdgraaf](http://github.com/svdgraaf) |
@@ -321,7 +323,7 @@ This table is generated from https://github.com/serverless/examples/blob/master/
 ## <a name="contributing"></a>Contributing
 We love our contributors! Please read our [Contributing Document](CONTRIBUTING.md) to learn how you can start working on the Framework yourself.
 
-Check out our [help-wanted](https://github.com/serverless/serverless/labels/status/help-wanted) or [easy-pick](https://github.com/serverless/serverless/labels/status/easy-pick) labels to find issues we want to move forward on with your help.
+Check out our [help wanted](https://github.com/serverless/serverless/labels/help%20wanted) or [good first issue](https://github.com/serverless/serverless/labels/good%20first%20issue) labels to find issues we want to move forward on with your help.
 
 ## <a name="community"></a>Community
 
@@ -356,6 +358,7 @@ These consultants use the Serverless Framework and can help you build your serve
 * [Langa](http://langa.io/?utm_source=gh-serverless&utm_medium=github) - They built [Trails.js](http://github.com/trailsjs/trails)
 * [Emerging Technology Advisors](https://www.emergingtechnologyadvisors.com)
 * [OneSpeed](https://onespeed.io/)
+* [Seraro](http://www.seraro.com/) - Who also runs Atlanta Serverless Meetup  (https://www.meetup.com/Atlanta-CABI-Camp-Cloud-AI-Blockchain-IOT) and Delhi Serverless Meetup (https://www.meetup.com/Delhi-NCR-Serverless-Architecture-Meetup/)
 ----
 
 # <a name="v.5"></a>Previous Serverless Version 0.5.x

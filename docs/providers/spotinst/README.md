@@ -12,7 +12,7 @@ layout: Doc
 
 Welcome to the Serverless Spotinst documentation!
 
-If you have questions, join the [chat in gitter](https://gitter.im/serverless/serverless) or [post over on the forums](https://forum.serverless.com/)
+If you have any questions, [search the forums](https://forum.serverless.com?utm_source=framework-docs) or [start your own thread](https://forum.serverless.com?utm_source=framework-docs)
 
 <div class="docsSections">
   <div class="docsSection">
@@ -29,7 +29,10 @@ If you have questions, join the [chat in gitter](https://gitter.im/serverless/se
         <li><a href="./guide/credentials.md">Credentials</a></li>
         <li><a href="./guide/serverless.yml.md">Serverless.yml Reference</a></li>
         <li><a href="./guide/variables.md">Variables</a></li>
-        <li><a href="./guide/document-store.md">Document Store</a></li>
+        <li><a href="./guide/endpoints.md">Endpoints</a></li>
+        <li><a href="./guide/cors.md">Cross-Origin Resource Sharing</a></li>
+        <li><a href="./guide/active-versions.md">Active Versions Documentation</a></li>
+        <li><a href="./guide/IAM-roles.md">IAM Roles</a></li>
       </ul>
     </div>
   </div>
@@ -48,6 +51,7 @@ If you have questions, join the [chat in gitter](https://gitter.im/serverless/se
         <li><a href="./cli-reference/deploy-function.md">Deploy Function</a></li>
         <li><a href="./cli-reference/invoke.md">Invoke</a></li>
         <li><a href="./cli-reference/logs.md">Logs</a></li>
+        <li><a href="./cli-reference/stage.md">Stage Variable</a></li>
         <li><a href="./cli-reference/info.md">Info</a></li>
         <li><a href="./cli-reference/remove.md">Remove</a></li>
         <li><a href="./cli-reference/plugin-list.md">Plugin List</a></li>
